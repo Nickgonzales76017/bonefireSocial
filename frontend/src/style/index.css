@@ -1,0 +1,70 @@
+:root {
+	font-family: 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+	color-scheme: light dark;
+	color: #444;
+	background: #fafafa;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		color: #fff;
+		background: #1c1c1c;
+	}
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+#app > main {
+	display: flex;
+	padding-top: 3.5rem;
+	margin: 0 auto;
+	min-height: calc(100vh - 3.5rem);
+	max-width: 1280px;
+	align-items: center;
+	justify-content: center;
+}
+
+@media (max-width: 639px) {
+	#app > main {
+		margin: 0 2rem;
+	}
+}
+.box {
+    -webkit-box-shadow: 5px 5px 2px -2px rgba(0,0,0,0.86); 
+    box-shadow: 5px 5px 2px -2px rgba(0,0,0,0.86);
+	background: rgb(255,144,144);
+	background: linear-gradient(0deg, rgba(255,144,144,1) 0%, rgba(182,150,150,1) 100%);
+	border-radius: 5px;
+}
+input:hover {
+    background-color: bisque;
+}
+body {
+    background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+.card{
+	-webkit-box-shadow: 5px 6px 0px 1px #000000; 
+	box-shadow: 5px 6px 0px 1px #000000;
+	border-radius: 5px;
+}
+.card.cardhover:hover{
+	opacity:0.9;
+	-webkit-box-shadow: 5px 6px 0px 1px #000000; 
+	box-shadow: 5px 6px 0px 1px #000000;
+	border-radius: 5px;
+}
+.card.cardhover{
+	-webkit-box-shadow: 5px 6px 0px 1px #000000; 
+	box-shadow: 5px 6px 0px 1px #000000;
+	border-radius: 5px;
+}
+.content{position: relative;width: 90%;max-width: 400px;margin: auto;overflow: hidden}.content .content-overlay{background: rgba(0,0,0,0.7);position: absolute;height: 99%;width: 100%;left: 0;top: 0;bottom: 0;right: 0;opacity: 0;-webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s}.content:hover .content-overlay{opacity: 1}.content-image{width: 100%}img{box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);border-radius: 5px}.content-details{position: absolute;text-align: center;padding-left: 1em;padding-right: 1em;width: 100%;top: 50%;left: 50%;opacity: 0;-webkit-transform: translate(-50%, -50%);-moz-transform: translate(-50%, -50%);transform: translate(-50%, -50%);-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s}.content:hover .content-details{top: 50%;left: 50%;opacity: 1}.content-details h3{color: #fff;font-weight: 500;letter-spacing: 0.15em;margin-bottom: 0.5em;text-transform: uppercase}.content-details p{color: #fff;font-size: 0.8em}.fadeIn-bottom{top: 80%}
