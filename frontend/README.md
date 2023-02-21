@@ -1,4 +1,4 @@
-# frontend
+# Bonfire frontend
 
 ## CLI Commands
 

@@ -22,7 +22,7 @@ const Signup = ({ user, UserContext}) => {
 	let handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-		  let res = await fetch("http://localhost:3000/formSubmit", {
+		  let res = await fetch("http://localhost:3001/formSubmit", {
 			method: "POST",
 			headers: {
 				'Content-Type': 'application/json'
