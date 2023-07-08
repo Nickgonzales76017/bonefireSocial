@@ -1,3 +1,5 @@
+var  AuthLogo = '../extensions/fire_emoji.png';
+var  MenuLogo =  '../extensions/fire_emoji.png';
 const config = {
   locales: [
     // 'ar',
@@ -27,6 +29,12 @@ const config = {
     // 'zh-Hans',
     // 'zh',
   ],
+  auth : {
+    logo: AuthLogo
+  },
+  menu : {
+    logo: MenuLogo
+  },
 };
 
 const bootstrap = (app) => {
